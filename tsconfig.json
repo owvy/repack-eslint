@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "lib/",
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "target": "es2020",
+    "declaration": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": false,
+    "pretty": true
+  },
+  "include": [
+    "src/repackConfig.ts"
+  ],
+  "exclude": [
+    "src/**/*.test.ts"
+  ]
+}
